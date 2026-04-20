@@ -12,7 +12,12 @@ sections:
   - block: collection
     content:
       title: Projects
-      text: In progress.
+      text: |-
+        **Development in progress.**
+
+        ## 3D Equation of State
+
+        ## Signatures of Phase Transitions in Gravitational Wave Signals
       filters:
         folders:
           - projects
