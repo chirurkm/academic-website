@@ -7,13 +7,13 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
+  spacing: '1rem'
 
 sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: me
+      username: chiru
       text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
@@ -42,11 +42,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research sits at the intersection of nuclear physics and astrophysics, focusing on understanding the properties of dense matter inside neutron stars. I use nuclear density functional models and Bayesian inference to constrain the equation of state of dense matter from gravitational wave observations of binary neutron star mergers.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I am interested in how nuclear physics input from terrestrial experiments and astrophysical observations can be combined to reveal the composition and structure of neutron star cores, including the possible presence of exotic phases such as hyperons or quark matter.
 
-        Please reach out to collaborate 😃
+        I am actively involved in the Einstein Telescope and Virgo collaborations, working on the science case for next-generation gravitational wave detectors in the context of nuclear physics and dense matter. Feel free to reach out if you are interested in collaborating!
     design:
       columns: '1'
   - block: collection
@@ -55,7 +55,7 @@ sections:
       title: Featured Publications
       filters:
         folders:
-          - publications
+          - publication
         featured_only: true
     design:
       view: article-grid
@@ -66,48 +66,19 @@ sections:
       text: ''
       filters:
         folders:
-          - publications
+          - publication
         exclude_featured: false
     design:
       view: citation
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Talks
       filters:
         folders:
           - events
     design:
       view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
@@ -128,4 +99,15 @@ sections:
         # Card background color (CSS class)
         css_class: 'bg-primary-300 dark:bg-primary-700'
         css_style: ''
+  - block: markdown
+    id: news
+    content:
+      title: 'News'
+      text: |-
+        - [Einstein Telescope News](https://einsteintelescope.eu/newsroom-archive/news/)
+        - [LIGO-Virgo-KAGRA News](https://www.ligo.org/news.php)
+        - [NASA Astrophysics News](https://science.nasa.gov/astrophysics/news/)
+        - [APS Physics](https://physics.aps.org/)
+    design:
+      columns: '1'
 ---

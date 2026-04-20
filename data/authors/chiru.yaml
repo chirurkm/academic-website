@@ -1,0 +1,166 @@
+schema: hugoblox/author/v1
+slug: chiru
+is_owner: true
+name:
+  display: Chiranjib Mondal
+  given: Chiranjib
+  family: Mondal
+  alternate: ''
+  pronunciation: ''
+  pronouns: he/him
+  avatar: avatar.jpg
+postnominals:
+  - PhD
+status:
+  icon: "🔭"
+role: Beatriu de Pinós Postdoctoral Fellow
+bio: |
+  I am a Beatriu de Pinós Postdoctoral Fellow at the Institut de Ciències del Cosmos,
+  Universitat de Barcelona. My research focuses on nuclear astrophysics, with particular
+  emphasis on the equation of state of dense matter, neutron star structure, and
+  multi-messenger astrophysics. I develop nuclear metamodels and Bayesian inference
+  frameworks to constrain the properties of dense matter using gravitational wave
+  observations from binary neutron star mergers. I am a member of the Einstein Telescope
+  and Virgo collaborations, and one of the three coordinators of Division 6 (Nuclear
+  Physics and Dense Matter) of the Einstein Telescope collaboration, contributing to
+  the study of nuclear physics with next-generation gravitational wave detectors.
+
+affiliations:
+  - name: Universitat de Barcelona
+    url: https://www.ub.edu/
+
+links:
+  - icon: at-symbol
+    url: mailto:chiranjib.mondal@ub.edu
+    label: E-mail (UB)
+  - icon: at-symbol
+    url: mailto:chiru.rkm@gmail.com
+    label: E-mail (Gmail)
+  - icon: brands/github
+    url: https://github.com/chirurkm/
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/chiranjib-mondal-b39b3613a/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=OMleZAYAAAAJ&hl=en
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-9238-6144
+  - icon: academicons/inspire
+    url: https://inspirehep.net/authors/1609918
+
+interests:
+  - Neutron stars
+  - Gravitational waves
+  - Dense nuclear matter equation of state
+  - Multi-messenger astrophysics
+  - Nuclear energy density functionals
+  - Bayesian inference
+
+education:
+  - degree: PhD in Nuclear Physics
+    institution: Saha Institute of Nuclear Physics, India
+    start: 2013-08-01
+    end: 2018-01-18
+    summary: |
+      Thesis: Constraining the density dependence of symmetry energy using mean field models.
+      Supervisor: Prof. Bijay Agrawal
+  - degree: Post M.Sc.
+    institution: Saha Institute of Nuclear Physics, India
+    start: 2012-08-01
+    end: 2013-07-31
+    summary: |
+      Specialization: Nuclear Physics and Field Theory
+  - degree: M.Sc. in Physics
+    institution: Calcutta University, Kolkata, India
+    start: 2010-07-01
+    end: 2012-06-15
+    summary: |
+      Specialization: Nuclear Physics and Field Theory
+  - degree: B.Sc. in Physics
+    institution: Narendrapur Ramakrishna Mission Residential College, Calcutta University
+    start: 2007-06-01
+    end: 2010-06-01
+
+experience:
+  - role: Beatriu de Pinós Postdoctoral Fellow
+    org: Institut de Ciències del Cosmos, Universitat de Barcelona
+    start: 2026-04-01
+    summary: |
+      Working on neutron stars, dense matter, and gravitational wave astrophysics.
+  - role: Postdoctoral Researcher
+    org: Institut d'Astronomie et d'Astrophysique, Université Libre de Bruxelles
+    start: 2023-03-01
+    end: 2026-03-31
+    summary: |
+      Host: Prof. Nicolas Chamel and Prof. Stéphane Goriely
+  - role: Postdoctoral Researcher
+    org: Laboratoire de Physique Corpusculaire de Caen, Université de Caen-Normandie
+    start: 2020-09-01
+    end: 2023-02-28
+    summary: |
+      Host: Prof. Francesca Gulminelli
+  - role: Postdoctoral Researcher
+    org: Institut de Ciències del Cosmos, Universitat de Barcelona
+    start: 2018-06-01
+    end: 2020-08-31
+    summary: |
+      Host: Prof. Mario Centelles and Prof. Xavier Viñas
+
+skills:
+  - name: Research
+    items:
+      - label: Nuclear Physics
+      - label: Dense matter equation of state
+      - label: Binary neutron star merger
+      - label: Density functional theory
+  - name: Programming
+    items:
+      - label: Fortran
+      - label: Python
+      - label: C
+  - name: Hobbies
+    items:
+      - label: Hiking
+      - label: Biking
+      - label: Reading
+      - label: Football
+
+languages:
+  - name: Bengali
+    level: 0
+    label: Native
+  - name: English
+    level: 0
+    label: Fluent
+  - name: Hindi
+    level: 0
+    label: Fluent
+  - name: Spanish
+    level: 0
+    label: Intermediate
+  - name: French
+    level: 0
+    label: Intermediate
+
+awards:
+  - title: Beatriu de Pinós Postdoctoral Fellowship
+    awarder: AGAUR, Generalitat de Catalunya
+    date: "2026-04-01"
+    summary: Competitive postdoctoral fellowship funded by the European Union's Horizon Europe programme under the Marie Skłodowska-Curie grant agreement.
+    icon: hero/academic-cap
+  - title: Coordinator, Division 6 (Nuclear Physics and Dense Matter)
+    awarder: Einstein Telescope Collaboration
+    date: "2026-01-01"
+    icon: hero/star
+  - title: Member
+    awarder: Einstein Telescope Collaboration
+    date: "2022-01-01"
+    icon: hero/user-group
+  - title: Member
+    awarder: VIRGO Collaboration
+    date: "2020-12-01"
+    icon: hero/user-group
+  - title: Organizing Committee Member
+    awarder: IReNA Online Seminar Series
+    date: "2020-01-01"
+    summary: Organizing committee member from 2020 to 2022.
+    icon: hero/user-group

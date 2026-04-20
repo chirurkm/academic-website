@@ -52,13 +52,16 @@ imaging:
   hint: picture
 timeout: 600000
 taxonomies:
-  author: authors
+  author: chiru
   tag: tags
   publication_type: publication_types
 markup:
   _merge: deep
   highlight:
     lineNos: false
+  goldmark:
+    renderer:
+      unsafe: true
 security:
   _merge: deep
 sitemap:
