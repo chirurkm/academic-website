@@ -140,6 +140,9 @@ languages:
   - name: French
     level: 0
     label: Intermediate
+  - name: Dutch
+    level: 0
+    label: Beginner
 
 awards:
   - title: Beatriu de Pinós Postdoctoral Fellowship
